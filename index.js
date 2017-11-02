@@ -94,6 +94,7 @@ function removeFromCart(item) {
      if (it.hasOwnProperty(item) !== true && (i >= cart.length-1) ) {
        return console.log("That item is not in your cart.")
      }
+     }
   } cart = newCart;
 }
 
